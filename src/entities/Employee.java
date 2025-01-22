@@ -3,20 +3,19 @@ package entities;
 public class Employee {
 
    private Integer id;
-    private String name;
-    private double salary;
-
-    public Employee() {
-    }
-
+   private String name;
+   private double salary;
+   
+   public Employee() {
+      }
     public Employee(Integer id, String name, double salary) {
-        this.id = id;
-        this.name = name;
-        this.salary = salary;
-    }
+      this.id = id;
+      this.name = name;
+      this.salary = salary;
+      }
 
     public Integer getId() {
-        return id;
+       return id;
     }
 
     public void setId(Integer id) {
